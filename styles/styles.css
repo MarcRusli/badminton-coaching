@@ -1,5 +1,5 @@
 .container {
-    border: 2px solid #000;
+    border: 20px solid #1D9533;
     /* Black border with 2px thickness */
     background-color: #EDEBED;
     /* Light background color */
@@ -12,7 +12,7 @@
 body {
     font-family: "Roboto", sans-serif;
     /* Choose a font for the page */
-    background-color: #485C0F;
+    background-color: #0B50A1;
     /* Light background color */
     margin: 0;
     padding: 20px;
