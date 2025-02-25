@@ -11,16 +11,31 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    /* Choose a font for the page */
     background-color: #0B50A1;
-    /* Light background color */
     margin: 0;
-    padding: 20px;
-    /* Adds 20px space around the body, creating distance from the edge of the screen */
+    padding: 0;
+    /* Adds space around the body, creating distance from the edge of the screen */
     box-sizing: border-box;
     /* Makes sure the padding doesn't affect width calculations */
 }
 
 h1, h2, p {
     font-weight: 400;
+}
+
+/* Style navigation bar */
+.topnav {
+    background-color: #EDEBED;
+    overflow: hidden;
+    border-bottom: 4px solid #0B50A1;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+    float: left;
+    color: #0B50A1;
+    text-align: center;
+    padding: 24px 16px;
+    text-decoration: none;
+    font-size: 17px;
 }
