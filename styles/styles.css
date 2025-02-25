@@ -8,8 +8,8 @@ body {
     /* Makes sure the padding doesn't affect width calculations */
 }
 
-h1, h2, p {
-    font-weight: 400;
+h1, h2, p, ul {
+    font-weight: 100;
 }
 
 /* Style navigation bar */
