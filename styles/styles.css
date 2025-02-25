@@ -1,17 +1,6 @@
-.container {
-    border: 20px solid #1D9533;
-    /* Black border with 2px thickness */
-    background-color: #EDEBED;
-    /* Light background color */
-    padding: 20px;
-    /* Optional: Adds some space between the border and the content */
-    margin: 0 auto;
-    /* Centers the container on the page */
-}
-
 body {
     font-family: "Roboto", sans-serif;
-    background-color: #0B50A1;
+    background-color: #EDEBED;
     margin: 0;
     padding: 0;
     /* Adds space around the body, creating distance from the edge of the screen */
@@ -25,9 +14,15 @@ h1, h2, p {
 
 /* Style navigation bar */
 .topnav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     background-color: #EDEBED;
     overflow: hidden;
     border-bottom: 4px solid #0B50A1;
+    box-shadow: 0 4px 0 0 #1D9533;  /* Green trim below the blue border */
+    z-index: 10;
 }
 
 /* Style the links inside the navigation bar */
@@ -38,4 +33,13 @@ h1, h2, p {
     padding: 24px 16px;
     text-decoration: none;
     font-size: 17px;
+}
+
+.container {
+    background-color: #EDEBED;
+    /* Light background color */
+    padding: 50px;
+    /* Optional: Adds some space between the border and the content */
+    margin: 20px;
+    /* Centers the container on the page */
 }
