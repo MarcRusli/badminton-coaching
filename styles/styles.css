@@ -2,11 +2,7 @@ body {
     font-family: "Roboto", sans-serif;
     background-color: #EDEBED;
     margin: 0;
-    padding-top: 90px;
-    /* Adds space around the body, creating distance from the edge of the screen */
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-bottom: 40px;
+    padding: 0;
     box-sizing: border-box;
     /* Makes sure the padding doesn't affect width calculations */
 }
@@ -70,8 +66,10 @@ h1, h2, p, ul {
 .container {
     background-color: #EDEBED;
     /* Light background color */
-    padding: 0px;
-    /* Optional: Adds some space between the border and the content */
+    padding-top: 90px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 40px;
     margin: 0px;
     /* Centers the container on the page */
 }
