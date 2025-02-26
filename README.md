@@ -4,6 +4,12 @@
 
 This is an advertisement page for my badminton coaching services. It's made of basic HTML, CSS, and a tad of JavaScript so far.
 
+## TODO
+* Fine-tune font weight and size
+* Add pictures of myself doing badminton things
+* Add a personalized logo
+* Add hover animations
+
 ## License
 
 This project is licensed under the **MIT License** – see the [LICENSE](LICENSE.txt) file for details.
