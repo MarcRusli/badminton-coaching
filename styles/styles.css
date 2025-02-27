@@ -63,10 +63,14 @@ h1, h2, p, ul {
     }
 }
 
+.main-container {
+    padding-top: 70px;
+}
+
 .container {
     background-color: #EDEBED;
     /* Light background color */
-    padding-top: 90px;
+    padding-top: 16px;
     padding-left: 40px;
     padding-right: 40px;
     padding-bottom: 40px;
